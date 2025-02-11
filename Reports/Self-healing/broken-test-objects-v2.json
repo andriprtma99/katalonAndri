@@ -1,0 +1,104 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Spy Object/Register Page/input_First-name",
+      "brokenLocator": "//input[@id\u003d\u0027mat-input-18\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy Object/Register Page/input_First-name_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Spy Object/Register Page/input_Last-name",
+      "brokenLocator": "//input[@id\u003d\u0027mat-input-19\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-form-field[2]/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy Object/Register Page/input_Last-name_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Spy Object/Register Page/input_User-name",
+      "brokenLocator": "//input[@id\u003d\u0027mat-input-20\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-form-field[3]/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy Object/Register Page/input_User-name_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Spy Object/Register Page/input_Password",
+      "brokenLocator": "//input[@id\u003d\u0027mat-input-21\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-form-field[4]/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy Object/Register Page/input_Password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Spy Object/Register Page/input_Confirm-Password",
+      "brokenLocator": "//input[@id\u003d\u0027mat-input-22\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-form-field[5]/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy Object/Register Page/input_Confirm-Password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Spy Object/Register Page/input_Gender-male",
+      "brokenLocator": "//input[@id\u003d\u0027mat-radio-4-input\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-radio-button/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy Object/Register Page/input_Gender-male_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Spy Object/Cart Page/span_btn-CheckOut",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027₹449.00\u0027])[1]/following::span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cart Total:\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy Object/Cart Page/span_btn-CheckOut_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Spy Object/Cart Page/span_btn-CheckOut",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027₹449.00\u0027])[1]/following::span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027API details\u0027])[1]/preceding::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy Object/Cart Page/span_btn-CheckOut_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Spy Object/Cart Page/span_CheckOut",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027₹875.00\u0027])[1]/following::span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cart Total:\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy Object/Cart Page/span_CheckOut_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Spy Object/Place Order Page/span_btn-Place Order",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027State is required\u0027])[1]/following::span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027State\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy Object/Place Order Page/span_btn-Place Order_neighbor.png"
+    }
+  ]
+}
